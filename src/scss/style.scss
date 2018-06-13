@@ -1,23 +1,63 @@
-
-  $font-stack: -apple-system, BlinkMacSystemFont,Roboto,'Open Sans','Helvetica Neue',sans-serif;
-
-  @import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
+@import './_vars';
   
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/Roboto-Regular.ttf);
+.header{
+  background-color: #290000;
+  border-top: 4px solid $accent-color;
+  padding-top: 25px;
+}
+.header__wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.navbar-brand{
+  color: #fff;
+  font-family: 'Georgia', sans-serif;
+  font-size: 28px;
+  margin-top: -5px;
+  span{
+    font-size: 12px;
+    display: block;
+    margin-top: -13px;
   }
-  
-  body {
-    font-family: $font-stack;
-    #logo {
-      width: 10rem;
-    }
-    .container {
-      img {
-        width: 20rem;
-      }
-    }
+  &:hover{
+    color: #fff;
   }
+}
+
+.nav-link{
+  color: #fff;
+  font-family: 'Georgia', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 16px;
+}
+.nav-link:hover, .nav-link:focus{
+  color: $accent-color;
+}
+.nav-item.active{
+  background-color: $accent-color;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  display: block;
+}
+.nav-item.active .nav-link:hover{
+  color: #fff;
+}
+
+//CAROUSEL
+.carousel-item__wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+[class|="carousel-control"]{
+  width: 20px;
+}
+
+
+.carousel-item__img{
+  border: 25px solid #6b6b6b;
+  border-radius: 50%;
+  z-index: 100;
+}
