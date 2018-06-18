@@ -1,0 +1,15 @@
+//CAROUSEL
+.carousel-item__wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+[class|="carousel-control"]{
+  width: 20px;
+}
+
+
+.carousel-item__img{
+  border: 25px solid #6b6b6b;
+  border-radius: 50%;
+}

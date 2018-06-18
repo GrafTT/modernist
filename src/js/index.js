@@ -1,10 +1,10 @@
 import $ from 'jquery';
 import popper from 'popper.js';
-import bootstrap from 'bootstrap';
+import carousel from 'bootstrap/js/src/carousel';
+import collapse from 'bootstrap/js/src/collapse';
+import dropdown from 'bootstrap/js/src/dropdown';
 
 
-$(function() {
-    $('body').css('color', 'blue');
-});
+
 
 import '../scss/style.scss';

@@ -1,0 +1,19 @@
+.gallery__item{
+  margin-bottom: 30px;
+  border: 5px solid #fff;
+  text-align: center;
+  transition: all ease 0.5s;
+  &:hover{
+    border-color: $accent-color;
+  }
+  img{
+    width: 100%;
+  }
+  .gallery__item_title{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    height: 100%;
+  }
+  
+}
