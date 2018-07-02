@@ -62,7 +62,9 @@
                   phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
                 <button class="carousel-item__button">Read More Here ></button>
               </div>
-              <img class="carousel-item__img" src="http://via.placeholder.com/380x380" alt="Первый слайд">
+              <div class="carousel-item__img">
+                <img src="http://via.placeholder.com/380x380" alt="Первый слайд">
+              </div>
             </div>
 
           </div>
@@ -146,7 +148,7 @@
         </div>
         <div class="latest-works">
           <div class="line"></div>
-          <a>Latest Works</a>
+          <h2>Latest Works</h2>
         </div>
       </div>
       <div class="container gallery">
@@ -220,13 +222,13 @@
           <div class="pre-footer__links">
             <h5>Quik Links</h5>
             <ul class="list-group list-group-flush">
-                <a href="#" class="list-group-item">> Cras justo odio</a>
-                <a href="#" class="list-group-item">> Dapibus ac facilisis in</a>
-                <a href="#" class="list-group-item">> Morbi leo risus</a>
-                <a href="#" class="list-group-item">> Porta ac consectetur ac</a>
-                <a href="#" class="list-group-item">> Vestibulum at eros</a>
-                <a href="#" class="list-group-item">> Porta ac consectetur ac</a>
-                <a href="#" class="list-group-item">> Vestibulum at eros</a>
+                <li class="list-group-item"><a href="#" class="list-group-item">> Cras justo odio</a></li> 
+                <li class="list-group-item"><a href="#" class="list-group-item">> Cras justo odio</a></li> 
+                <li class="list-group-item"><a href="#" class="list-group-item">> Cras justo odio</a></li> 
+                <li class="list-group-item"><a href="#" class="list-group-item">> Cras justo odio</a></li> 
+                <li class="list-group-item"><a href="#" class="list-group-item">> Cras justo odio</a></li> 
+                <li class="list-group-item"><a href="#" class="list-group-item">> Cras justo odio</a></li> 
+                <li class="list-group-item"><a href="#" class="list-group-item">> Cras justo odio</a></li> 
               </ul>
           </div>
         </div>
@@ -245,11 +247,21 @@
           <div class="pre-footer__contact">
             <h5>Contact Us</h5>
             <form class="contact__form">
-              <input type="text" class="contact__form_input" data-input="name" name="Name" placeholder="Full Name">
-              <input type="email" class="contact__form_input" data-input="email" name="Email" placeholder="Email Address">
-              <input type="text" class="contact__form_input" data-input="subject" name="Subject" placeholder="Subject">
-              <textarea name="Msg" rows="4" class="contact__form_input" placeholder="Message"></textarea></textarea>
-              <button type="submit" class="contact__form_button">Submit</button>
+              <fieldset>
+                <input type="text" class="contact__form_input" data-input="name" name="Name" placeholder="Full Name">
+              </fieldset>
+              <fieldset>
+                <input type="email" class="contact__form_input" data-input="email" name="Email" placeholder="Email Address">
+              </fieldset>
+              <fieldset>
+                  <input type="text" class="contact__form_input" data-input="subject" name="Subject" placeholder="Subject">
+              </fieldset>
+              <fieldset>
+                  <textarea name="Msg" rows="4" class="contact__form_input" placeholder="Message"></textarea>
+              </fieldset>
+              <fieldset>
+                  <button type="submit" class="contact__form_button">Submit</button>
+              </fieldset>
             </form>
           </div>
         </div>
